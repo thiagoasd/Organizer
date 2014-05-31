@@ -22,18 +22,18 @@ public class Series {
 		}
 		File folder = new File(folderPath);
 
-		Parser(folder);
+		parser(folder);
 
 	}
 
-	public static void Parser(File folder) {
+	public static void parser(File folder) {
 		File[] listOfFiles = folder.listFiles();
 		for (int i = 0; i < listOfFiles.length; i++) {
 			System.out.println(listOfFiles[i].getName());
 			if (listOfFiles[i].isFile()) {
 				renamer(listOfFiles[i]);
 			} else if (listOfFiles[i].isDirectory()) {
-				Parser(listOfFiles[i]);
+				parser(listOfFiles[i]);
 			}
 		}
 	}
