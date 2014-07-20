@@ -14,8 +14,8 @@ public class Series {
 	public static void main(String[] args) {
 
 		if (args.length == 0) {
-			folderPath = "C:\\Users\\Thiago\\Downloads\\Torrent";
-			moveFolderPath = "C:\\Users\\Thiago\\Downloads\\Torrent\\";
+			folderPath = "Z:\\Torrent\\Completo\\Anime";
+			moveFolderPath = "Z:\\Torrent\\Completo\\Anime";
 		} else {
 			folderPath = args[0];
 			moveFolderPath = args[1];
