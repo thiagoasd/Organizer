@@ -6,7 +6,7 @@ public class Animes {
 
 	static String folderPath;
 	static String moveFolderPath;
-	static String ANIME = "Death Note";
+	static String ANIME = "Aldonoah.Zero";
 	static String SEASON = "1";
 	static String[] acceptedExtensions = new String[] { "mp4", "mkv", "srt" };
 	static String[] rejectedExtensions = new String[] { "nfo" };
@@ -15,8 +15,8 @@ public class Animes {
 	public static void main(String args[]) {
 
 		if (args.length == 0) {
-			folderPath = "Z:\\Torrent\\Completo\\Anime";
-			moveFolderPath = "Z:\\Torrent\\Completo\\Anime\\";
+			folderPath = "Z:\\Downloads\\Aldonoah";
+			moveFolderPath = "Z:\\Downloads\\Aldonoah\\";
 		} else {
 			folderPath = args[0];
 			moveFolderPath = args[1];
